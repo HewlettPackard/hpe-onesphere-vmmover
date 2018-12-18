@@ -23,3 +23,8 @@ install-module VMware.VimAutomation.Core
 .\OneSphereVMMover.ps1 -VCServerName vcenter-os1.etss.lab -DatacenterName NHITS-DC -Username XXX -Password XXX -reset
 .\OneSphereVMMover.ps1 -VCServerName vcenter-os1.etss.lab -DatacenterName NHITS-DC -Username XXX -Password XXX -ExcelFilename myfile.xls
 ````
+# More information
+
+A blog article is available at from the [HPE Developer Web site](https://developer.hpe.com/blog/optimizing-vm-placement-in-an-hpe-onesphere-managed-vcenter-cluster)
+
+
