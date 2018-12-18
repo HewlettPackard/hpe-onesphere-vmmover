@@ -25,6 +25,6 @@ install-module VMware.VimAutomation.Core
 ````
 # More information
 
-A blog article is available at from the [HPE Developer Web site](https://developer.hpe.com/blog/optimizing-vm-placement-in-an-hpe-onesphere-managed-vcenter-cluster)
+A blog article is available from [HPE Developer Web site](https://developer.hpe.com/blog/optimizing-vm-placement-in-an-hpe-onesphere-managed-vcenter-cluster)
 
 
