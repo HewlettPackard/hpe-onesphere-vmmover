@@ -8,7 +8,7 @@ The script takes also a **-ExcelFilename** parameter to specify the name of the 
  
 # Dependencies
 
-This script requires 2 PowerShell modules, one for manipulating Excel spreadsheets and the second for interfacing with VMware VCenter. These tow modules can be installed from the Microsoft PowerShell Gallery with the following instructions:
+This script requires two PowerShell modules, one for manipulating Excel spreadsheets and the second for interfacing with VMware vCenter. These two modules can be installed from the Microsoft PowerShell Gallery with the following instructions:
 
 ```` PowerShell
 install-module importexcel
