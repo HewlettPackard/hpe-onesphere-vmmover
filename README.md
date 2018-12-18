@@ -1,10 +1,10 @@
 # Script goal
 
-The goal of this script is to dispatch VMs created by HPE OneSphere in VCenter Datacenter root folder, to their appropriate project folders. We use an Excel spreadsheet to handle mappings of OneSphere Projects to VCenter folders. Several options are available to handle nonexisting target folders (-CreateTarget=never,always,only) and default behaviour will not create the folder and not move the VM (never).
+The goal of this script is to dispatch VMs created by HPE OneSphere in VCenter Datacenter root folder, to their appropriate project folders. We use an Excel spreadsheet to handle mappings of OneSphere Projects to VCenter folders. Several options are available to handle nonexisting target folders (**-CreateTarget=never,always,only**) and default behaviour will not create the folder and not move the VM (**never**).
 
-The -reset option (mutually exclusive with -createTarget) will move ALL Onesphere managed VM back to root of Datacenter folder, allowing to revert changes and/or rework the folder structure.
+The **-reset** option (mutually exclusive with **-CreateTarget**) will move ALL Onesphere managed VM back to root of Datacenter folder, allowing to revert changes and/or rework the folder structure.
 
-The script takes also a -ExcelFilename parameter to specify the name of the Excel spreadsheet for the mappings. It defaults to ProjectMapping.xlsx in the same location as the script.
+The script takes also a **-ExcelFilename** parameter to specify the name of the Excel spreadsheet for the mappings. It defaults to ProjectMapping.xlsx in the same location as the script.
  
 # Dependencies
 
